@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profilePhoto from "@/assets/profile-photo.png";
 
 const Hero = () => {
   const socialLinks = [
@@ -40,7 +41,7 @@ const Hero = () => {
             <div className="w-48 h-48 mx-auto mb-6 relative">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-accent animate-glow-pulse"></div>
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+                src={profilePhoto}
                 alt="Shubhrajyoti Gupta"
                 className="relative z-10 w-full h-full rounded-full object-cover border-4 border-background"
               />
