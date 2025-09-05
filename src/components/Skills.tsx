@@ -3,7 +3,6 @@ import { Badge } from "@/components/ui/badge";
 import { 
   Code2, 
   Database, 
-  Globe, 
   Wrench,
   BookOpen,
   Languages
@@ -14,32 +13,26 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: Code2,
-      skills: ["C", "C++", "Java", "JavaScript", "TypeScript"],
+      skills: ["C", "C++", "Java"],
       color: "text-primary"
     },
     {
       title: "Databases",
       icon: Database,
-      skills: ["MySQL", "PostgreSQL", "MongoDB"],
+      skills: ["MySQL", "PostgreSQL"],
       color: "text-accent"
-    },
-    {
-      title: "Web Technologies",
-      icon: Globe,
-      skills: ["HTML", "CSS", "React", "Node.js", "REST APIs"],
-      color: "text-emerald-400"
     },
     {
       title: "Tools & Frameworks",
       icon: Wrench,
       skills: ["Swing", "JUnit", "Mockito", "Git", "IntelliJ IDEA", "Eclipse", "PyCharm", "VS Code"],
-      color: "text-orange-400"
+      color: "text-emerald-400"
     },
     {
       title: "Technical Skills",
       icon: BookOpen,
       skills: ["DSA", "Object-Oriented Programming", "Problem Solving", "Software Testing", "UI/UX Design"],
-      color: "text-purple-400"
+      color: "text-orange-400"
     },
     {
       title: "Languages",
