@@ -29,9 +29,9 @@ const Skills = () => {
       color: "text-emerald-400"
     },
     {
-      title: "Technical Skills",
+      title: "Skills",
       icon: BookOpen,
-      skills: ["DSA", "Object-Oriented Programming", "Problem Solving", "Software Testing", "UI/UX Design"],
+      skills: ["DSA", "Object-Oriented Programming", "Problem Solving", "Software Testing", "UI/UX Design", "Canva", "Figma", "Adobe XD", "Communication", "Teamwork", "Time Management"],
       color: "text-orange-400"
     },
     {
@@ -84,24 +84,25 @@ const Skills = () => {
           ))}
         </div>
 
-        {/* Complementary Skills */}
+        {/* Additional Skills */}
         <div className="mt-16 text-center animate-slide-up" style={{ animationDelay: "0.6s" }}>
           <Card className="gradient-card card-glow border-glow max-w-4xl mx-auto">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-6 text-primary">Complementary Skills</h3>
+              <h3 className="text-2xl font-bold mb-6 text-primary">Additional Skills</h3>
               <div className="grid md:grid-cols-2 gap-6 text-left">
                 <div>
-                  <h4 className="font-semibold text-accent mb-3">UI/UX Design</h4>
+                  <h4 className="font-semibold text-accent mb-3">Design & Communication</h4>
                   <p className="text-muted-foreground mb-4">
-                    Experience with design tools like Canva, Figma, and Adobe XD for creating 
-                    intuitive user interfaces and engaging user experiences.
+                    Experienced with design tools like Canva, Figma, and Adobe XD for creating 
+                    intuitive user interfaces and engaging user experiences. Strong communication 
+                    and content writing abilities.
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-accent mb-3">Soft Skills</h4>
+                  <h4 className="font-semibold text-accent mb-3">Professional Skills</h4>
                   <p className="text-muted-foreground">
-                    Effective communication, teamwork, analytical problem solving, and time 
-                    management skills developed through various projects and internships.
+                    Effective teamwork, analytical problem solving, and time management skills 
+                    developed through various projects, internships, and hackathon participations.
                   </p>
                 </div>
               </div>
