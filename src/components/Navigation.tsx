@@ -12,7 +12,7 @@ const Navigation = () => {
     { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
     { name: "DSA", href: "https://www.leetcode.com/shubhrajyoti-gupta", external: true },
-    { name: "Content Writing", href: "https://www.medium.com/@shubhrajyoti-gupta", external: true },
+    { name: "Content Writing", href: "https://medium.com/@shubhrajyotigupta2005", external: true },
     { name: "Contact", href: "#contact" },
   ];
 

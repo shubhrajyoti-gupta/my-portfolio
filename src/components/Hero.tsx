@@ -21,7 +21,7 @@ const Hero = () => {
     },
     {
       icon: FileText,
-      href: "https://www.medium.com/@shubhrajyoti-gupta",
+      href: "https://medium.com/@shubhrajyotigupta2005",
       label: "Medium",
     },
   ];

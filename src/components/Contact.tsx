@@ -43,7 +43,7 @@ const Contact = () => {
     {
       icon: FileText,
       label: "Medium",
-      href: "https://www.medium.com/@shubhrajyoti-gupta",
+      href: "https://medium.com/@shubhrajyotigupta2005",
       description: "Technical articles and content writing"
     }
   ];
