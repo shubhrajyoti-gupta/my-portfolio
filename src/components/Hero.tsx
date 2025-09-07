@@ -58,7 +58,7 @@ const Hero = () => {
           </p>
           
           <p className="text-lg md:text-xl text-accent mb-8">
-            Java Developer | Full Stack Developer | Content Writer
+            Java Developer | Full Stack Java Developer | Content Writer
           </p>
           
           <div className="mb-8">

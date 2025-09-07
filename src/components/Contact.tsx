@@ -175,7 +175,11 @@ const Contact = () => {
                 <p className="text-muted-foreground mb-4">
                   Download my resume for detailed information about my experience, skills, and achievements.
                 </p>
-                <Button variant="outline" className="border-glow">
+                <Button 
+                  variant="outline" 
+                  className="border-glow"
+                  onClick={() => window.open("https://drive.google.com/file/d/1fmUdUHBOqJUlT3iDCHSsDz89mTeEwSed/view?usp=drive_link", "_blank")}
+                >
                   <FileText className="w-4 h-4 mr-2" />
                   Download Resume
                 </Button>

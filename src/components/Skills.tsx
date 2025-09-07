@@ -13,7 +13,7 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: Code2,
-      skills: ["C", "C++", "Java"],
+      skills: ["C", "C++", "Java", "HTML", "CSS", "JavaScript"],
       color: "text-primary"
     },
     {
@@ -25,7 +25,7 @@ const Skills = () => {
     {
       title: "Tools & Frameworks",
       icon: Wrench,
-      skills: ["Swing", "JUnit", "Mockito", "Git", "IntelliJ IDEA", "Eclipse", "PyCharm", "VS Code"],
+      skills: ["Swing", "JUnit", "Mockito", "Git", "IntelliJ IDEA", "Eclipse", "PyCharm", "VS Code", "React", "Spring", "Spring Boot", "Tailwind CSS"],
       color: "text-emerald-400"
     },
     {
