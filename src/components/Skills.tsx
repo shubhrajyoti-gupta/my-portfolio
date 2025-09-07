@@ -29,10 +29,16 @@ const Skills = () => {
       color: "text-emerald-400"
     },
     {
-      title: "Skills",
+      title: "Analytical Skills",
       icon: BookOpen,
-      skills: ["DSA", "Object-Oriented Programming", "Problem Solving", "Software Testing", "UI/UX Design", "Canva", "Figma", "Adobe XD", "Communication", "Teamwork", "Time Management"],
+      skills: ["DSA", "OOPS", "Problem Solving", "Software Testing", "Agile", "Waterfall", "SDLC"],
       color: "text-orange-400"
+    },
+    {
+      title: "Design & Content Writing",
+      icon: BookOpen,
+      skills: ["Canva", "Figma", "Adobe XD", "UI/UX Design", "Medium", "Blog Writing"],
+      color: "text-purple-400"
     },
     {
       title: "Languages",
@@ -88,23 +94,17 @@ const Skills = () => {
         <div className="mt-16 text-center animate-slide-up" style={{ animationDelay: "0.6s" }}>
           <Card className="gradient-card card-glow border-glow max-w-4xl mx-auto">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-6 text-primary">Additional Skills</h3>
-              <div className="grid md:grid-cols-2 gap-6 text-left">
-                <div>
-                  <h4 className="font-semibold text-accent mb-3">Design & Communication</h4>
-                  <p className="text-muted-foreground mb-4">
-                    Experienced with design tools like Canva, Figma, and Adobe XD for creating 
-                    intuitive user interfaces and engaging user experiences. Strong communication 
-                    and content writing abilities.
-                  </p>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-accent mb-3">Professional Skills</h4>
-                  <p className="text-muted-foreground">
-                    Effective teamwork, analytical problem solving, and time management skills 
-                    developed through various projects, internships, and hackathon participations.
-                  </p>
-                </div>
+              <h3 className="text-2xl font-bold mb-6 text-primary">Soft Skills</h3>
+              <div className="flex flex-wrap gap-3 justify-center">
+                {["Teamwork", "Collaboration", "Vibe Coding", "Effective Communication", "Adaptability", "Time Management"].map((skill) => (
+                  <Badge
+                    key={skill}
+                    variant="secondary"
+                    className="bg-background/50 hover:bg-background/70 transition-colors duration-300 border-glow text-lg px-4 py-2"
+                  >
+                    {skill}
+                  </Badge>
+                ))}
               </div>
             </CardContent>
           </Card>

@@ -15,9 +15,9 @@ const Experience = () => {
       certificate: "https://drive.google.com/file/d/1oq6QB_P3TZVgH9V8eXDMdCS7hI5_iWSu/view?usp=drive_link"
     },
     {
-      title: "Salesforce Developer Trainee",
-      company: "SmartBridge",
-      duration: "05/2025 - 07/2025",
+      title: "Java Developer Intern",
+      company: "CodTech IT Solutions",
+      duration: "08/2025 - 09/2025",
       description: "Participated in a web-based virtual internship program from Salesforce Trailhead, demonstrating proficiency in Salesforce fundamentals, CRM concepts, and customer engagement workflows.",
       certificate: "https://drive.google.com/file/d/1eaM_2aMaVJRFgF29vJ3FERpS5JmrQGZd/view?usp=drive_link"
     }
@@ -43,6 +43,11 @@ const Experience = () => {
       title: "Java Basic Certificate",
       issuer: "HackerRank",
       certificate: "https://drive.google.com/file/d/1axSiAOadh4DTYhPGDZ0AghHCdlNN_Ley/view?usp=drive_link"
+    },
+    {
+      title: "Communication Certificate",
+      issuer: "TestDome",
+      certificate: "https://drive.google.com/file/d/1mjEhe3vSs8P3xGT9C69nr7Lv6jNDnfjf/view?usp=drive_link"
     },
     {
       title: "Accenture Software Development Certificate",

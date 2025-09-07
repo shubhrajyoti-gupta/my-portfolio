@@ -28,6 +28,30 @@ const Projects = () => {
         "Question bank management",
         "Responsive design"
       ]
+    },
+    {
+      title: "Tic Tac Toe",
+      description: "Java-based Tic Tac Toe game with smooth gameplay, scoreboard, results tracking, and tutorial features with a user-friendly interface.",
+      technologies: ["Java", "Swing", "Game Development"],
+      github: "https://github.com/shubhrajyoti-gupta/Tic-Tac-Toe",
+      features: [
+        "Smooth gameplay experience",
+        "Interactive scoreboard",
+        "Results tracking system",
+        "Built-in tutorial guide"
+      ]
+    },
+    {
+      title: "FreeLancing App CLI",
+      description: "Command-line interface application for freelancing management, providing efficient tools for project and client management through terminal operations.",
+      technologies: ["CLI", "Terminal App", "Project Management"],
+      github: "https://github.com/shubhrajyoti-gupta/FreeLancing-App",
+      features: [
+        "Command-line interface",
+        "Project management tools",
+        "Client management system",
+        "Terminal-based operations"
+      ]
     }
   ];
 
