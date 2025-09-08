@@ -10,6 +10,7 @@ const Projects = () => {
       description: "Java-based desktop application built with Swing and JavaFX, featuring an intuitive UI and efficient performance for creating, editing, and managing notes.",
       technologies: ["Java", "Swing", "JavaFX", "Desktop App"],
       github: "https://github.com/shubhrajyoti-gupta/Notepad-desktop-app",
+      demo: "https://drive.google.com/file/d/1IhAcVTnvoXv8DepIHMy_ofRfcuZ7QQ3v/view?usp=drive_link",
       features: [
         "Create and edit text files",
         "File management operations",
@@ -22,6 +23,7 @@ const Projects = () => {
       description: "Interactive Java desktop app developed using Swing and JavaFX, offering a responsive UI and efficient performance for creating, managing, and taking quizzes.",
       technologies: ["Java", "Swing", "JavaFX", "Desktop App"],
       github: "https://github.com/shubhrajyoti-gupta/Quiz-Application",
+      demo: "https://drive.google.com/file/d/1UEd3HTk-IQpvEyPl7mV3eTxPF2B7saEB/view?usp=drive_link",
       features: [
         "Interactive quiz interface",
         "Score tracking and management",
@@ -34,6 +36,7 @@ const Projects = () => {
       description: "Java-based Tic Tac Toe game with smooth gameplay, scoreboard, results tracking, and tutorial features with a user-friendly interface.",
       technologies: ["Java", "Swing", "Game Development"],
       github: "https://github.com/shubhrajyoti-gupta/Tic-Tac-Toe",
+      demo: "https://drive.google.com/file/d/1hLM0OFTNdQLelQA8CXm7k7gG2yiGo9cg/view?usp=drive_link",
       features: [
         "Smooth gameplay experience",
         "Interactive scoreboard",
@@ -118,7 +121,7 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <div className="pt-4 border-t border-border">
+                <div className="pt-4 border-t border-border space-y-3">
                   <Button
                     onClick={() => window.open(project.github, "_blank")}
                     className="w-full glow group-hover:animate-glow-pulse"
@@ -126,6 +129,16 @@ const Projects = () => {
                     <Github className="w-4 h-4 mr-2" />
                     View on GitHub
                   </Button>
+                  {project.demo && (
+                    <Button
+                      variant="outline"
+                      onClick={() => window.open(project.demo, "_blank")}
+                      className="w-full border-glow"
+                    >
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      View Demo
+                    </Button>
+                  )}
                 </div>
               </CardContent>
             </Card>

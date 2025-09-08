@@ -18,7 +18,7 @@ const Experience = () => {
       title: "Java Developer Intern",
       company: "CodTech IT Solutions",
       duration: "08/2025 - 09/2025",
-      description: "Participated in a web-based virtual internship program from Salesforce Trailhead, demonstrating proficiency in Salesforce fundamentals, CRM concepts, and customer engagement workflows.",
+      description: "Developed Java-based applications and enhanced programming skills through hands-on projects, focusing on core Java concepts, object-oriented programming, and software development best practices.",
       certificate: "https://drive.google.com/file/d/1eaM_2aMaVJRFgF29vJ3FERpS5JmrQGZd/view?usp=drive_link"
     }
   ];

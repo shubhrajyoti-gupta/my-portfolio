@@ -36,7 +36,7 @@ const About = () => {
                   <div>
                     <h4 className="font-medium text-primary">Secondary</h4>
                     <p className="text-muted-foreground">Aditya Birla Vani Bharati</p>
-                    <p className="text-sm text-muted-foreground">CBSE</p>
+                    <p className="text-sm text-muted-foreground">Percentage: 87.85%</p>
                   </div>
                 </div>
               </CardContent>
