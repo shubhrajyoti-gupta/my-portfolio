@@ -23,7 +23,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={
-            <div className="min-h-screen bg-background text-foreground">
+            <div className="min-h-screen bg-black stardust-bg text-foreground">
               <Navigation />
               <Hero />
               <About />
