@@ -27,11 +27,19 @@ const Hero = () => {
   ];
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center gradient-hero relative overflow-hidden">
-      {/* Animated background elements */}
+    <section id="home" className="min-h-screen flex items-center justify-center bg-black stardust-bg relative overflow-hidden">
+      {/* Stardust background */}
       <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-primary/20 rounded-full blur-3xl animate-float"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-48 h-48 bg-accent/20 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }}></div>
+        <div className="stardust-particle stardust-1"></div>
+        <div className="stardust-particle stardust-2"></div>
+        <div className="stardust-particle stardust-3"></div>
+        <div className="stardust-particle stardust-4"></div>
+        <div className="stardust-particle stardust-5"></div>
+        <div className="stardust-particle stardust-6"></div>
+        <div className="stardust-particle stardust-7"></div>
+        <div className="stardust-particle stardust-8"></div>
+        <div className="stardust-particle stardust-9"></div>
+        <div className="stardust-particle stardust-10"></div>
       </div>
       
       <div className="container mx-auto px-4 text-center relative z-10">
@@ -49,7 +57,7 @@ const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
-            <span className="text-glow">Shubhrajyoti</span>{" "}
+            <span className="text-primary">Shubhrajyoti</span>{" "}
             <span className="text-primary">Gupta</span>
           </h1>
           
